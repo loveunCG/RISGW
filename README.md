@@ -1,4 +1,4 @@
-# GateWay between acquire device and RIS
+# Gateway between acquire device and RIS
 
 
 ## This app is for listening mpps message gateway on RIS
