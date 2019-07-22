@@ -1,2 +1,85 @@
-<?xml version="1.0" encoding="UTF-8"?><dicom><attr tag="00020001" vr="OB" len="2">00\01</attr><attr tag="00020002" vr="UI" len="24">1.2.840.10008.3.1.2.3.3</attr><attr tag="00020003" vr="UI" len="58">1.2.826.0.1.3680043.2.1545.1.2.1.7.20180201.233227.128.22</attr><attr tag="00020010" vr="UI" len="20">1.2.840.10008.1.2.1</attr><attr tag="00020012" vr="UI" len="16">1.2.40.0.13.1.1</attr><attr tag="00020013" vr="SH" len="12">dcm4che-2.0</attr><attr tag="00080005" vr="CS" len="10">ISO_IR 100</attr><attr tag="00080060" vr="CS" len="2">CR</attr><attr tag="00081032" vr="SQ" len="0"/><attr tag="00081120" vr="SQ" len="0"/><attr tag="00100010" vr="PN" len="8">LinChen</attr><attr tag="00100020" vr="LO" len="12">10000000017</attr><attr tag="00100021" vr="LO" len="22">Issuer of Patient ID1</attr><attr tag="00100030" vr="DA" len="8">61922880</attr><attr tag="00100040" vr="CS" len="2">M</attr><attr tag="0018115E" vr="DS" len="6">0.5703</attr><attr tag="00200010" vr="SH" len="14">Procedure ID1</attr><attr tag="00400241" vr="AE" len="4">DVT</attr><attr tag="00400242" vr="SH" len="0"/><attr tag="00400243" vr="SH" len="0"/><attr tag="00400244" vr="DA" len="8">20180201</attr><attr tag="00400245" vr="TM" len="6">233215</attr><attr tag="00400250" vr="DA" len="8">20180201</attr><attr tag="00400251" vr="TM" len="6">233227</attr><attr tag="00400252" vr="CS" len="10">COMPLETED</attr><attr tag="00400253" vr="SH" len="6">1605.0</attr><attr tag="00400254" vr="LO" len="0"/><attr tag="00400255" vr="LO" len="0"/><attr tag="00400260" vr="SQ" len="0"/><attr tag="00400270" vr="SQ" len="-1"><item><attr tag="00080050" vr="SH" len="8">1000046</attr><attr tag="00081110" vr="SQ" len="-1"><item><attr tag="00081150" vr="UI" len="24">1.2.840.10008.3.1.2.3.1</attr><attr tag="00081155" vr="UI" len="36">1.2.840.10008.5.1.4.1.1.9.1.2.1.1.1</attr></item></attr><attr tag="0020000D" vr="UI" len="26">1000046100000000179999999</attr><attr tag="00321060" vr="LO" len="32">Requested Procedure Description</attr><attr tag="00400007" vr="LO" len="36">Scheduled Procedure Step Description</attr><attr tag="00400008" vr="SQ" len="0"/><attr tag="00400009" vr="SH" len="10">SPS-123123</attr><attr tag="00401001" vr="SH" len="12">QPRP-1234567</attr></item></attr><attr tag="00400281" vr="SQ" len="0"/><attr tag="00400301" vr="US" len="2">2</attr><attr tag="0040030E" vr="SQ" len="-1"><item><attr tag="00180060" vr="DS" len="4">48.0</attr><attr tag="00181150" vr="IS" len="2">23</attr><attr tag="0018115A" vr="CS" len="6">PULSED</attr><attr tag="00188151" vr="DS" len="8">259085.0</attr></item><item><attr tag="00180060" vr="DS" len="4">46.0</attr><attr tag="00181150" vr="IS" len="2">16</attr><attr tag="0018115A" vr="CS" len="6">PULSED</attr><attr tag="00188151" vr="DS" len="8">242655.0</attr></item></attr><attr tag="00400310" vr="ST" len="156">1, Hand pa, 48kV, 5.946mAs, 22.95ms, SID 1100, EI 80, 0mmAl, 0.3575dGycm2, ,&#13;
-2, Hand lat, 46kV, 3.948mAs, 16.27ms, SID 1100, EI 160, 0mmAl, 0.2128dGycm2, ,</attr><attr tag="00400321" vr="SQ" len="0"/><attr tag="00400340" vr="SQ" len="-1"><item><attr tag="00080054" vr="AE" len="8">DCM4CHEE</attr><attr tag="0008103E" vr="LO" len="0"/><attr tag="00081050" vr="PN" len="0"/><attr tag="00081070" vr="PN" len="12">DVT Service</attr><attr tag="00081140" vr="SQ" len="-1"><item><attr tag="00081150" vr="UI" len="26">1.2.840.10008.5.1.4.1.1.7</attr><attr tag="00081155" vr="UI" len="36">1.2.826.0.1.3680043.2.1545.6.906.15</attr></item></attr><attr tag="00181030" vr="LO" len="10">DEMO_Hand</attr><attr tag="0020000E" vr="UI" len="56">1.2.826.0.1.3680043.2.1545.1.2.1.7.20180201.233249.24.23</attr><attr tag="00400220" vr="SQ" len="0"/></item></attr></dicom>
+<?xml version="1.0" encoding="UTF-8"?>
+<dicom>
+    <attr tag="00020001" vr="OB" len="2">00\01</attr>
+    <attr tag="00020002" vr="UI" len="24">1.2.840.10008.3.1.2.3.3</attr>
+    <attr tag="00020003" vr="UI" len="58">1.2.826.0.1.3680043.2.1545.1.2.1.7.20180201.233227.128.22</attr>
+    <attr tag="00020010" vr="UI" len="20">1.2.840.10008.1.2.1</attr>
+    <attr tag="00020012" vr="UI" len="16">1.2.40.0.13.1.1</attr>
+    <attr tag="00020013" vr="SH" len="12">dcm4che-2.0</attr>
+    <attr tag="00080005" vr="CS" len="10">ISO_IR 100</attr>
+    <attr tag="00080060" vr="CS" len="2">CR</attr>
+    <attr tag="00081032" vr="SQ" len="0"/>
+    <attr tag="00081120" vr="SQ" len="0"/>
+    <attr tag="00100010" vr="PN" len="8">LinChen</attr>
+    <attr tag="00100020" vr="LO" len="12">10000000017</attr>
+    <attr tag="00100021" vr="LO" len="22">Issuer of Patient ID1</attr>
+    <attr tag="00100030" vr="DA" len="8">61922880</attr>
+    <attr tag="00100040" vr="CS" len="2">M</attr>
+    <attr tag="0018115E" vr="DS" len="6">0.5703</attr>
+    <attr tag="00200010" vr="SH" len="14">Procedure ID1</attr>
+    <attr tag="00400241" vr="AE" len="4">DVT</attr>
+    <attr tag="00400242" vr="SH" len="0"/>
+    <attr tag="00400243" vr="SH" len="0"/>
+    <attr tag="00400244" vr="DA" len="8">20180201</attr>
+    <attr tag="00400245" vr="TM" len="6">233215</attr>
+    <attr tag="00400250" vr="DA" len="8">20180201</attr>
+    <attr tag="00400251" vr="TM" len="6">233227</attr>
+    <attr tag="00400252" vr="CS" len="10">COMPLETED</attr>
+    <attr tag="00400253" vr="SH" len="6">1605.0</attr>
+    <attr tag="00400254" vr="LO" len="0"/>
+    <attr tag="00400255" vr="LO" len="0"/>
+    <attr tag="00400260" vr="SQ" len="0"/>
+    <attr tag="00400270" vr="SQ" len="-1">
+        <item>
+            <attr tag="00080050" vr="SH" len="8">1000046</attr>
+            <attr tag="00081110" vr="SQ" len="-1">
+                <item>
+                    <attr tag="00081150" vr="UI" len="24">1.2.840.10008.3.1.2.3.1</attr>
+                    <attr tag="00081155" vr="UI" len="36">1.2.840.10008.5.1.4.1.1.9.1.2.1.1.1</attr>
+                </item>
+            </attr>
+            <attr tag="0020000D" vr="UI" len="26">1000046100000000179999999</attr>
+            <attr tag="00321060" vr="LO" len="32">Requested Procedure Description</attr>
+            <attr tag="00400007" vr="LO" len="36">Scheduled Procedure Step Description</attr>
+            <attr tag="00400008" vr="SQ" len="0"/>
+            <attr tag="00400009" vr="SH" len="10">SPS-123123</attr>
+            <attr tag="00401001" vr="SH" len="12">QPRP-1234567</attr>
+        </item>
+    </attr>
+    <attr tag="00400281" vr="SQ" len="0"/>
+    <attr tag="00400301" vr="US" len="2">2</attr>
+    <attr tag="0040030E" vr="SQ" len="-1">
+        <item>
+            <attr tag="00180060" vr="DS" len="4">48.0</attr>
+            <attr tag="00181150" vr="IS" len="2">23</attr>
+            <attr tag="0018115A" vr="CS" len="6">PULSED</attr>
+            <attr tag="00188151" vr="DS" len="8">259085.0</attr>
+        </item>
+        <item>
+            <attr tag="00180060" vr="DS" len="4">46.0</attr>
+            <attr tag="00181150" vr="IS" len="2">16</attr>
+            <attr tag="0018115A" vr="CS" len="6">PULSED</attr>
+            <attr tag="00188151" vr="DS" len="8">242655.0</attr>
+        </item>
+    </attr>
+    <attr tag="00400310" vr="ST" len="156">1, Hand pa, 48kV, 5.946mAs, 22.95ms, SID 1100, EI 80, 0mmAl, 0.3575dGycm2, ,&#13;
+2, Hand lat, 46kV, 3.948mAs, 16.27ms, SID 1100, EI 160, 0mmAl, 0.2128dGycm2, ,</attr>
+    <attr tag="00400321" vr="SQ" len="0"/>
+    <attr tag="00400340" vr="SQ" len="-1">
+        <item>
+            <attr tag="00080054" vr="AE" len="8">DCM4CHEE</attr>
+            <attr tag="0008103E" vr="LO" len="0"/>
+            <attr tag="00081050" vr="PN" len="0"/>
+            <attr tag="00081070" vr="PN" len="12">DVT Service</attr>
+            <attr tag="00081140" vr="SQ" len="-1">
+                <item>
+                    <attr tag="00081150" vr="UI" len="26">1.2.840.10008.5.1.4.1.1.7</attr>
+                    <attr tag="00081155" vr="UI" len="36">1.2.826.0.1.3680043.2.1545.6.906.15</attr>
+                </item>
+            </attr>
+            <attr tag="00181030" vr="LO" len="10">DEMO_Hand</attr>
+            <attr tag="0020000E" vr="UI" len="56">1.2.826.0.1.3680043.2.1545.1.2.1.7.20180201.233249.24.23</attr>
+            <attr tag="00400220" vr="SQ" len="0"/>
+        </item>
+    </attr>
+</dicom>

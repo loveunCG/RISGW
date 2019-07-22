@@ -1,6 +1,7 @@
-# RISGW
+# GateWay between acquire device and RIS
 
-### This app is for listening mpps message gateway on RIS
+
+## This app is for listening mpps message gateway on RIS
 
 > RIS system community with dicom server and storage 
 
@@ -13,14 +14,22 @@
 
 
 
-### Requirement and installation
+## Requirement and installation
+
+
  - install nodejs
  - mysql server
- - runnig mpps service with dcm4che toolkit 
+ - runnig mpps service with dcm4che toolkit ([dcmof](https://dcm4che.atlassian.net/wiki/spaces/d2/pages/1835021/dcmof))
+ ```
+    $ dcmof -mwl `wmlPath` -c dcmof:`11116`
+    $ dcmof [Options] [<aet>[@<ip>]:]<port>
+ ```
 
 
 
-### Additional feature
+## Additional feature
+
+
 - At this app, checking deplicating user on RIS platform using database session.
-> Be carefull .env config 
+- Be carefull .env config 
 
