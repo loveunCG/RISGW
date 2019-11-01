@@ -31,7 +31,7 @@
     "build": "node build/build.js"
   },
   "dependencies": {
-    "knex": "^0.13.0",
+    "knex": "^0.19.5",
     "moment": "^2.20.1",
     "mysql": "^2.15.0",
     "nodemon": "^1.12.1",
